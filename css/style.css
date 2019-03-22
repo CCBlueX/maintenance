@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500");
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ECF7FD;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.axolotl {
+    width: 200px;
+    max-width: 90%;
+}
+
+h1 {
+    color: #45494D;
+}
+
+span {
+    color: #81828C;
+}
