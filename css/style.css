@@ -26,3 +26,16 @@ h1 {
 span {
     color: #81828C;
 }
+
+a {
+    color: #007ACC;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #007ACC;
+}
