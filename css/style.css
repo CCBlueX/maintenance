@@ -39,3 +39,80 @@ a:hover {
 a:visited {
     color: #007ACC;
 }
+
+.page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 20px;
+    text-align: center;
+}
+
+.page p {
+    color: #81828C;
+    line-height: 1.5;
+}
+
+.page h2 {
+    color: #45494D;
+    font-size: 1.2em;
+    margin-top: 2.5em;
+}
+
+.page h3 {
+    color: #45494D;
+    font-size: 1em;
+    margin-top: 2em;
+}
+
+.text {
+    text-align: left;
+}
+
+.quote {
+    text-align: left;
+    margin: 1.5em 0;
+    padding: 4px 24px 16px;
+    background-color: #FFFFFF;
+    border-left: 4px solid #007ACC;
+    border-radius: 8px;
+}
+
+.page .quote p {
+    color: #45494D;
+    font-size: 0.95em;
+}
+
+.quote cite {
+    display: block;
+    color: #81828C;
+    font-size: 0.85em;
+    font-style: normal;
+}
+
+.page .updated {
+    font-size: 0.85em;
+}
+
+.document {
+    text-align: left;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    padding: 20px 24px;
+    color: #45494D;
+    font-family: inherit;
+    font-size: 0.9em;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.headers {
+    color: #81828C;
+}
+
+.redacted {
+    color: #45494D;
+    background-color: #45494D;
+    border-radius: 2px;
+    user-select: none;
+}
